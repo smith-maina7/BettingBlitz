@@ -1,0 +1,50 @@
+{
+  "sports": [
+    {
+      "id": 1,
+      "name": "Football",
+      "countries": [
+        {
+          "id": 101,
+          "name": "England"
+        },
+        {
+          "id": 102,
+          "name": "Spain"
+        },
+        {
+          "id": 103,
+          "name": "Italy"
+        },
+        {
+          "id": 104,
+          "name": "France"
+        },
+        {
+          "id": 105,
+          "name": "Netherlands"
+        },
+        {
+          "id": 106,
+          "name": "Russia"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Basketball"
+    },
+    {
+      "id": 3,
+      "name": "Hockey"
+    },
+    {
+      "id": 4,
+      "name": "Tennis"
+    },
+    {
+      "id": 5,
+      "name": "Formula One"
+    }
+  ]
+}
