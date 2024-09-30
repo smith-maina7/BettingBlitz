@@ -6,27 +6,446 @@
       "countries": [
         {
           "id": 101,
-          "name": "England"
+          "name": "England",
+          "divisions": [
+            {
+              "id": 1011,
+              "name": "Premier League",
+              "games": [
+                {
+                  "id": 1011001,
+                  "home_team": "Bournemouth",
+                  "away_team": "Southampton",
+                  "markets": {
+                    "home_away": [
+                      { "id": 10110011, "name": "1", "odds": 1.63 },
+                      { "id": 10110012, "name": "X", "odds": 4.4 },
+                      { "id": 10110013, "name": "2", "odds": 5.2 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10110014, "name": "Yes", "odds": 1.58 },
+                      { "id": 10110015, "name": "No", "odds": 2.34 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10110016, "name": "1/X", "odds": 1.19 },
+                      { "id": 10110017, "name": "X/2", "odds": 2.34 },
+                      { "id": 10110018, "name": "1/2", "odds": 1.23 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10110019, "name": "Over 0.5", "odds": 1.02 },
+                      { "id": 10110020, "name": "Under 0.5", "odds": 14.0 },
+                      { "id": 10110021, "name": "Over 1.5", "odds": 1.15 },
+                      { "id": 10110022, "name": "Under 1.5", "odds": 5.4 },
+                      { "id": 10110023, "name": "Over 2.5", "odds": 1.5 },
+                      { "id": 10110024, "name": "Under 2.5", "odds": 2.6 },
+                      { "id": 10110025, "name": "Over 3.5", "odds": 2.23 },
+                      { "id": 10110026, "name": "Under 3.5", "odds": 1.66 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1011002,
+                  "home_team": "Liverpool",
+                  "away_team": "Manchester United",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10110027, "name": "1", "odds": 1.7 },
+                      { "id": 10110028, "name": "X", "odds": 3.8 },
+                      { "id": 10110029, "name": "2", "odds": 4.5 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10110030, "name": "Yes", "odds": 1.6 },
+                      { "id": 10110031, "name": "No", "odds": 2.35 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10110032, "name": "1/X", "odds": 1.19 },
+                      { "id": 10110033, "name": "X/2", "odds": 2.34 },
+                      { "id": 10110034, "name": "1/2", "odds": 1.23 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10110035, "name": "Over 0.5", "odds": 1.02 },
+                      { "id": 10110036, "name": "Under 0.5", "odds": 14.0 },
+                      { "id": 10110037, "name": "Over 1.5", "odds": 1.15 },
+                      { "id": 10110038, "name": "Under 1.5", "odds": 5.4 },
+                      { "id": 10110039, "name": "Over 2.5", "odds": 1.5 },
+                      { "id": 10110040, "name": "Under 2.5", "odds": 2.6 },
+                      { "id": 10110041, "name": "Over 3.5", "odds": 2.23 },
+                      { "id": 10110042, "name": "Under 3.5", "odds": 1.66 }
+                    ]
+                  }
+                },
+                {
+                  "id": 111105,
+                  "home_team": "Aston Villa",
+                  "away_team": "Man City",
+                  "markets": {
+                    "1x2": [
+                      { "id": 65, "name": "1", "odds": 2.05 },
+                      { "id": 66, "name": "X", "odds": 3.3 },
+                      { "id": 67, "name": "2", "odds": 3.9 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 68, "name": "Yes", "odds": 1.6 },
+                      { "id": 69, "name": "No", "odds": 2.3 }
+                    ],
+                    "Double Chance": [
+                      { "id": 70, "name": "1/X", "odds": 1.28 },
+                      { "id": 71, "name": "X/2", "odds": 2.6 },
+                      { "id": 72, "name": "1/2", "odds": 1.4 }
+                    ],
+                    "Total Goals": [
+                      { "id": 73, "name": "Over 0.5", "odds": 1.06 },
+                      { "id": 74, "name": "Under 0.5", "odds": 11.5 },
+                      { "id": 75, "name": "Over 1.5", "odds": 1.2 },
+                      { "id": 76, "name": "Under 1.5", "odds": 5.6 },
+                      { "id": 77, "name": "Over 2.5", "odds": 1.45 },
+                      { "id": 78, "name": "Under 2.5", "odds": 2.9 },
+                      { "id": 79, "name": "Over 3.5", "odds": 2.6 },
+                      { "id": 80, "name": "Under 3.5", "odds": 1.55 }
+                    ]
+                  }
+                },
+                {
+                  "id": 111104,
+                  "home_team": "Tottenham",
+                  "away_team": "Everton",
+                  "markets": {
+                    "1x2": [
+                      { "id": 49, "name": "1", "odds": 1.9 },
+                      { "id": 50, "name": "X", "odds": 3.6 },
+                      { "id": 51, "name": "2", "odds": 4.8 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 52, "name": "Yes", "odds": 1.5 },
+                      { "id": 53, "name": "No", "odds": 2.6 }
+                    ],
+                    "Double Chance": [
+                      { "id": 54, "name": "1/X", "odds": 1.2 },
+                      { "id": 55, "name": "X/2", "odds": 2.55 },
+                      { "id": 56, "name": "1/2", "odds": 1.35 }
+                    ],
+                    "Total Goals": [
+                      { "id": 57, "name": "Over 0.5", "odds": 1.05 },
+                      { "id": 58, "name": "Under 0.5", "odds": 12.0 },
+                      { "id": 59, "name": "Over 1.5", "odds": 1.1 },
+                      { "id": 60, "name": "Under 1.5", "odds": 5.8 },
+                      { "id": 61, "name": "Over 2.5", "odds": 1.55 },
+                      { "id": 62, "name": "Under 2.5", "odds": 2.45 },
+                      { "id": 63, "name": "Over 3.5", "odds": 2.35 },
+                      { "id": 64, "name": "Under 3.5", "odds": 1.75 }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 1012,
+              "name": "Sky Bet Championship",
+              "games": [
+                {
+                  "id": 1012001,
+                  "home_team": "Leeds United",
+                  "away_team": "Sheffield Wednesday",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10120011, "name": "1", "odds": 1.75 },
+                      { "id": 10120012, "name": "X", "odds": 3.5 },
+                      { "id": 10120013, "name": "2", "odds": 4.8 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10120014, "name": "Yes", "odds": 1.65 },
+                      { "id": 10120015, "name": "No", "odds": 2.3 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10120016, "name": "1/X", "odds": 1.2 },
+                      { "id": 10120017, "name": "X/2", "odds": 2.1 },
+                      { "id": 10120018, "name": "1/2", "odds": 1.3 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10120019, "name": "Over 2.5", "odds": 1.8 },
+                      { "id": 10120020, "name": "Under 2.5", "odds": 2.0 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1012002,
+                  "home_team": "Norwich City",
+                  "away_team": "Sunderland",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10120021, "name": "1", "odds": 1.9 },
+                      { "id": 10120022, "name": "X", "odds": 3.4 },
+                      { "id": 10120023, "name": "2", "odds": 4.0 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10120024, "name": "Yes", "odds": 1.7 },
+                      { "id": 10120025, "name": "No", "odds": 2.2 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10120026, "name": "1/X", "odds": 1.22 },
+                      { "id": 10120027, "name": "X/2", "odds": 2.05 },
+                      { "id": 10120028, "name": "1/2", "odds": 1.35 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10120029, "name": "Over 2.5", "odds": 1.9 },
+                      { "id": 10120030, "name": "Under 2.5", "odds": 1.95 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1012003,
+                  "home_team": "Middlesbrough",
+                  "away_team": "West Brom",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10120031, "name": "1", "odds": 2.1 },
+                      { "id": 10120032, "name": "X", "odds": 3.3 },
+                      { "id": 10120033, "name": "2", "odds": 3.8 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10120034, "name": "Yes", "odds": 1.75 },
+                      { "id": 10120035, "name": "No", "odds": 2.1 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10120036, "name": "1/X", "odds": 1.25 },
+                      { "id": 10120037, "name": "X/2", "odds": 1.85 },
+                      { "id": 10120038, "name": "1/2", "odds": 1.4 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10120039, "name": "Over 2.5", "odds": 2.05 },
+                      { "id": 10120040, "name": "Under 2.5", "odds": 1.85 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1012004,
+                  "home_team": "Stoke City",
+                  "away_team": "Millwall",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10120041, "name": "1", "odds": 2.3 },
+                      { "id": 10120042, "name": "X", "odds": 3.1 },
+                      { "id": 10120043, "name": "2", "odds": 3.6 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10120044, "name": "Yes", "odds": 1.8 },
+                      { "id": 10120045, "name": "No", "odds": 2.0 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10120046, "name": "1/X", "odds": 1.28 },
+                      { "id": 10120047, "name": "X/2", "odds": 1.75 },
+                      { "id": 10120048, "name": "1/2", "odds": 1.45 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10120049, "name": "Over 2.5", "odds": 2.1 },
+                      { "id": 10120050, "name": "Under 2.5", "odds": 1.8 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1012005,
+                  "home_team": "Coventry City",
+                  "away_team": "Hull City",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10120051, "name": "1", "odds": 2.5 },
+                      { "id": 10120052, "name": "X", "odds": 3.2 },
+                      { "id": 10120053, "name": "2", "odds": 3.4 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10120054, "name": "Yes", "odds": 1.85 },
+                      { "id": 10120055, "name": "No", "odds": 1.95 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10120056, "name": "1/X", "odds": 1.3 },
+                      { "id": 10120057, "name": "X/2", "odds": 1.7 },
+                      { "id": 10120058, "name": "1/2", "odds": 1.5 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10120059, "name": "Over 2.5", "odds": 2.2 },
+                      { "id": 10120060, "name": "Under 2.5", "odds": 1.75 }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": 1013,
+              "name": "League One",
+              "games": [
+                {
+                  "id": 1013001,
+                  "home_team": "Portsmouth",
+                  "away_team": "Charlton Athletic",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10130011, "name": "1", "odds": 1.9 },
+                      { "id": 10130012, "name": "X", "odds": 3.4 },
+                      { "id": 10130013, "name": "2", "odds": 4.0 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10130014, "name": "Yes", "odds": 1.75 },
+                      { "id": 10130015, "name": "No", "odds": 2.1 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10130016, "name": "1/X", "odds": 1.22 },
+                      { "id": 10130017, "name": "X/2", "odds": 2.05 },
+                      { "id": 10130018, "name": "1/2", "odds": 1.35 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10130019, "name": "Over 2.5", "odds": 1.85 },
+                      { "id": 10130020, "name": "Under 2.5", "odds": 1.95 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1013002,
+                  "home_team": "Bolton Wanderers",
+                  "away_team": "Derby County",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10130021, "name": "1", "odds": 2.1 },
+                      { "id": 10130022, "name": "X", "odds": 3.2 },
+                      { "id": 10130023, "name": "2", "odds": 3.5 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10130024, "name": "Yes", "odds": 1.8 },
+                      { "id": 10130025, "name": "No", "odds": 2.0 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10130026, "name": "1/X", "odds": 1.25 },
+                      { "id": 10130027, "name": "X/2", "odds": 1.8 },
+                      { "id": 10130028, "name": "1/2", "odds": 1.4 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10130029, "name": "Over 2.5", "odds": 2.0 },
+                      { "id": 10130030, "name": "Under 2.5", "odds": 1.85 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1013003,
+                  "home_team": "Ipswich Town",
+                  "away_team": "Barnsley",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10130031, "name": "1", "odds": 1.95 },
+                      { "id": 10130032, "name": "X", "odds": 3.3 },
+                      { "id": 10130033, "name": "2", "odds": 4.1 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10130034, "name": "Yes", "odds": 1.7 },
+                      { "id": 10130035, "name": "No", "odds": 2.2 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10130036, "name": "1/X", "odds": 1.23 },
+                      { "id": 10130037, "name": "X/2", "odds": 2.1 },
+                      { "id": 10130038, "name": "1/2", "odds": 1.37 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10130039, "name": "Over 2.5", "odds": 1.9 },
+                      { "id": 10130040, "name": "Under 2.5", "odds": 2.0 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1013004,
+                  "home_team": "Plymouth Argyle",
+                  "away_team": "Oxford United",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10130041, "name": "1", "odds": 2.25 },
+                      { "id": 10130042, "name": "X", "odds": 3.2 },
+                      { "id": 10130043, "name": "2", "odds": 3.4 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10130044, "name": "Yes", "odds": 1.8 },
+                      { "id": 10130045, "name": "No", "odds": 2.0 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10130046, "name": "1/X", "odds": 1.3 },
+                      { "id": 10130047, "name": "X/2", "odds": 1.75 },
+                      { "id": 10130048, "name": "1/2", "odds": 1.45 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10130049, "name": "Over 2.5", "odds": 2.05 },
+                      { "id": 10130050, "name": "Under 2.5", "odds": 1.85 }
+                    ]
+                  }
+                },
+                {
+                  "id": 1013005,
+                  "home_team": "Sheffield Wednesday",
+                  "away_team": "Lincoln City",
+                  "markets": {
+                    "1x2": [
+                      { "id": 10130051, "name": "1", "odds": 2.4 },
+                      { "id": 10130052, "name": "X", "odds": 3.1 },
+                      { "id": 10130053, "name": "2", "odds": 3.5 }
+                    ],
+                    "Both Teams to Score": [
+                      { "id": 10130054, "name": "Yes", "odds": 1.85 },
+                      { "id": 10130055, "name": "No", "odds": 1.95 }
+                    ],
+                    "Double Chance": [
+                      { "id": 10130056, "name": "1/X", "odds": 1.28 },
+                      { "id": 10130057, "name": "X/2", "odds": 1.75 },
+                      { "id": 10130058, "name": "1/2", "odds": 1.45 }
+                    ],
+                    "Total Goals": [
+                      { "id": 10130059, "name": "Over 2.5", "odds": 2.1 },
+                      { "id": 10130060, "name": "Under 2.5", "odds": 1.8 }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 102,
-          "name": "Spain"
+          "name": "Spain",
+          "divisions": [
+            { "id": 1021, "name": "La Liga" },
+            { "id": 1022, "name": "Segunda División" },
+            { "id": 1023, "name": "Primera Federación" }
+          ]
         },
         {
           "id": 103,
-          "name": "Italy"
+          "name": "Italy",
+          "divisions": [
+            { "id": 1031, "name": "Serie A" },
+            { "id": 1032, "name": "Serie B" },
+            { "id": 1033, "name": "Serie C" }
+          ]
         },
         {
           "id": 104,
-          "name": "France"
+          "name": "France",
+          "divisions": [
+            { "id": 1041, "name": "Ligue 1" },
+            { "id": 1042, "name": "Ligue 2" },
+            { "id": 1043, "name": "Championnat National" }
+          ]
         },
         {
           "id": 105,
-          "name": "Netherlands"
+          "name": "Netherlands",
+          "divisions": [
+            { "id": 1051, "name": "Eredivisie" },
+            { "id": 1052, "name": "Eerste Divisie" },
+            { "id": 1053, "name": "Tweede Divisie" }
+          ]
         },
         {
           "id": 106,
-          "name": "Russia"
+          "name": "Russia",
+          "divisions": [
+            { "id": 1061, "name": "Russian Premier League" },
+            { "id": 1062, "name": "Russian Football National League" },
+            { "id": 1063, "name": "Russian Professional Football League" }
+          ]
         }
       ]
     },

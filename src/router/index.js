@@ -20,9 +20,19 @@ const router = createRouter({
       component: () => import('../views/SportView.vue')
     },
     {
-      path: '/league/:sportId/:countryId',
-      name: 'league',
-      component: () => import('../views/LeagueView.vue')
+      path: '/country/:sportId/:countryId',
+      name: 'countries',
+      component: () => import('../views/CountryView.vue')
+    },
+    {
+      path: '/leagues/:sportId/:countryId/:leagueId',
+      name: 'leagues',
+      component: () => import('../views/DivisionsView.vue')
+    },
+    {
+      path: '/match/:sportId/:countryId/:leagueId/:matchId',
+      name: 'markets',
+      component: () => import('../views/MarketsView.vue')
     }
   ]
 })

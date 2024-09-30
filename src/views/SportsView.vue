@@ -1,6 +1,5 @@
 <script setup>
 import sportsData from '../data/sports.json'
-console.log(sportsData)
 </script>
 <template>
   <div>

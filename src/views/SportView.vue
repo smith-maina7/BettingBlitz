@@ -11,7 +11,9 @@ const sport = sportsData.sports.find((sport) => sport.id === sportId)
   <div v-if="sport">
     <ul>
       <li v-for="country in sport.countries" :key="country.id">
-        <router-link :to="{ name: 'league', params: { sportId: sport.id, countryId: country.id } }">
+        <router-link
+          :to="{ name: 'countries', params: { sportId: sport.id, countryId: country.id } }"
+        >
           {{ country.name }}</router-link
         >
       </li>
