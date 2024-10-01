@@ -22,16 +22,16 @@
                       { "id": 10110012, "name": "X", "odds": 4.4 },
                       { "id": 10110013, "name": "2", "odds": 5.2 }
                     ],
-                    "Both Teams to Score": [
+                    "Both_Teams_to_Score": [
                       { "id": 10110014, "name": "Yes", "odds": 1.58 },
                       { "id": 10110015, "name": "No", "odds": 2.34 }
                     ],
-                    "Double Chance": [
+                    "Double_Chance": [
                       { "id": 10110016, "name": "1/X", "odds": 1.19 },
                       { "id": 10110017, "name": "X/2", "odds": 2.34 },
                       { "id": 10110018, "name": "1/2", "odds": 1.23 }
                     ],
-                    "Total Goals": [
+                    "Goals": [
                       { "id": 10110019, "name": "Over 0.5", "odds": 1.02 },
                       { "id": 10110020, "name": "Under 0.5", "odds": 14.0 },
                       { "id": 10110021, "name": "Over 1.5", "odds": 1.15 },
